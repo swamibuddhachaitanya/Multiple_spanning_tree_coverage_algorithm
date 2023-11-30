@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/swami/catkin_ws/src/TMSTC-Star/include/ACO_STC.h
+vector
+-
+algorithm
+-
+iostream
+-
+stack
+-
+unordered_map
+-
+random
+-
+
+/home/swami/catkin_ws/src/TMSTC-Star/src/ACO/ACO_STC.cpp
+ACO_STC.h
+/home/swami/catkin_ws/src/TMSTC-Star/src/ACO/ACO_STC.h
+iostream
+-
+fstream
+-
+sstream
+-
+

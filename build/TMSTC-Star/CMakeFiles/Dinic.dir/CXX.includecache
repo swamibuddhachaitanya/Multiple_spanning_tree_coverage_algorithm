@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/swami/catkin_ws/src/TMSTC-Star/include/Dinic.h
+iostream
+-
+cstdio
+-
+queue
+-
+algorithm
+-
+unordered_set
+-
+cstring
+-
+map
+-
+
+/home/swami/catkin_ws/src/TMSTC-Star/src/Dinic/Dinic.cpp
+Dinic.h
+-
+

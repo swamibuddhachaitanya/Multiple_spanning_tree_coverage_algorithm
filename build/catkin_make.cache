@@ -1,0 +1,2 @@
+TMSTC-Star
+-DCATKIN_DEVEL_PREFIX=/home/swami/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/swami/catkin_ws/install -G Unix Makefiles
